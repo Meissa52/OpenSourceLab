@@ -1,0 +1,131 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ @import url(https://fonts.googleapis.com/css?family=Lato);
+ @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+ body, html {
+   background-color:#282B33;
+ }
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+nav ul a {
+  color:black;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+i.material-icons {
+	color:black;
+}
+
+.parallax {
+	float:left;
+}
+
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.btn:hover,.btn-large:hover {
+	background-color:yellow;
+	color:black;
+}
+
+nav {
+  background-color:white;
+  padding:0px 20px;
+  z-index: 500;
+}
+
+#nav-logo {
+  height:2.1em;
+}
+
+
+nav li {
+font-weight:bold;
+}
+
+nav li a {
+  color:white;
+  }
+
+/*
+nav li a:hover {
+
+}
+*/
+
+#profile-pic {
+  max-width:500px;
+  max-height:200px;
+  border:1px solid black;
+  border-radius:5px;
+}
+
+#posts-cards {
+  margin-bottom:0px;
+}
+
+#create_post,#create_reply {
+  border:none; margin-bottom:0px;
+}
